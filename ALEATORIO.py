@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import random
 
-archivo_excel = "datos/ALEAOTIRO.xlsx"
+archivo_excel = "ALEAOTIRO.xlsx"
 df = pd.read_excel(archivo_excel)
 
 # Seleccionar las columnas específicas para el segundo DataFrame
